@@ -35,7 +35,7 @@ def process_voice_input():
 # Function to send the user's input to the OpenAI GPT-3 API and get a response
 def get_chatbot_response(input_text):
     # Replace 'YOUR_API_KEY' with your actual API key
-    api_key = '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'
+    api_key = 'YOUR_API_KEY'
 
     # Define the OpenAI GPT-3 API endpoint
     api_endpoint = 'https://api.openai.com/v1/completions'
