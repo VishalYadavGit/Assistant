@@ -15,7 +15,7 @@ while True:
         # Use the Google Web Speech API to recognize the audio
         text = recognizer.recognize_google(audio)
         print(text)
-        api_key = 'AIzaSyC4aAAy1jo_SnmIEDMUpDbMVeS70n_mq2s'
+        api_key = 'YOUR_API_KEY'
         palm.configure(api_key=api_key)
         response = palm.chat(messages=[text])
         print(response.last) #  'Hello! What can I help you with?'
